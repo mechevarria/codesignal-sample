@@ -19,7 +19,7 @@ else
     --name ${name} \
     -p 3306:3306 \
     -v ${PWD}/volume:/var/lib/mysql \
-    -e MYSQL_DATABASE=loan \
+    -e MYSQL_DATABASE=user \
     -e MYSQL_ROOT_PASSWORD=${rootpass} \
     -e MYSQL_USER=${user} \
     -e MYSQL_PASSWORD=${userpass} \
